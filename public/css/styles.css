@@ -1,0 +1,87 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-brand{
+  color: orange;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Yellowtail', cursive;
+  margin-left: 50px;
+}
+.search{
+  
+  font-family: 'Poppins', sans-serif;
+}
+.nav-items{
+  text-decoration: none;
+  font-size: 20px;
+  color: #faaa55;
+}
+.about{
+  font-family: 'Poppins',sans-serif;
+}
+.items-navbar{
+  display: inline-flex;
+  margin-left: 900px;
+  gap: 50px;
+}
+.navbar{
+  height: 50px;
+  padding-top: 10px;
+}
+nav{
+  background-color: #ededed;
+}
+img.delivery{
+  width: 500px;
+  height:500px;
+  margin-left: 100px;
+}
+p.safe-lines{
+  font-size: 50px;
+  text-align: center;
+}
+.sentence{
+  margin: 100px 60px 30px 0px ;
+  font-family: 'Poppins','san-serif';
+  width: 600px;
+  float: right;
+}
+.oder-now{
+  border-bottom: solid orange;
+  height: 600px;
+}
+.restaurants{
+  margin: 70px 0 0 100px;
+  border-style: solid;
+  border-width: medium;
+  border: grey;
+  display: inline-grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+}
+.restaurant-card{
+  cursor: pointer;
+}
+.restaurant-info{
+  height: 100px;
+}
+.text-restaurant-info{
+  margin: 20px 0 0 10px;
+}
+.hotel-image{
+  width: 400px;
+  height: 300px;
+  margin: 10px 0 50px 100px;
+}
+.hotel-heading{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: 50;
+}
+a{
+  text-decoration: none;
+}
